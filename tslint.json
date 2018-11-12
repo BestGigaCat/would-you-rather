@@ -1,0 +1,14 @@
+{
+  "rulesDirectory": [
+    "node_modules/tslint-eslint-rules/dist/rules"
+  ],
+  "rules": {
+    "format-message-draft": {
+      "severity": "warning"
+    },
+    "graphql-interfaces": {
+      "severity": "warning"
+    },
+    "sort-enum": true
+  }
+}
