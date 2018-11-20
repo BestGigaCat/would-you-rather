@@ -3,10 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4169ce90-9af1-4c64-804f-69c079abe56d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tslint-teamcity.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tslint.json" beforeDir="false" afterPath="$PROJECT_DIR$/tslint.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,10 +34,10 @@
           <entry key="jpeg" value="1" />
           <entry key="jpg" value="1" />
           <entry key="js" value="22" />
-          <entry key="json" value="44" />
+          <entry key="json" value="45" />
           <entry key="jsx" value="3" />
           <entry key="lock" value="1" />
-          <entry key="md" value="3" />
+          <entry key="md" value="4" />
           <entry key="png" value="1" />
           <entry key="scss" value="2" />
           <entry key="ts" value="233" />
@@ -53,10 +50,10 @@
           <entry key="HTML" value="6" />
           <entry key="IDEA_MODULE" value="1" />
           <entry key="Image" value="3" />
-          <entry key="JSON" value="35" />
+          <entry key="JSON" value="36" />
           <entry key="JSX Harmony" value="3" />
           <entry key="JavaScript" value="22" />
-          <entry key="Markdown" value="3" />
+          <entry key="Markdown" value="4" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="SCSS" value="2" />
           <entry key="TypeScript" value="1" />
@@ -100,15 +97,6 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/app/component.tsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-14">
-              <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/components/unanswered-question/component.tsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
@@ -121,10 +109,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="120">
+                <caret line="8" selection-start-line="8" selection-end-line="10" selection-end-column="92" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="673">
+              <caret line="50" column="155" selection-start-line="50" selection-start-column="155" selection-end-line="50" selection-end-column="155" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/components/home/component.tsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="-265">
-              <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+              <caret column="7" selection-start-column="7" selection-end-column="7" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -145,7 +154,7 @@
         <entry file="file://$PROJECT_DIR$/src/components/question/component.tsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="615">
-              <caret line="41" column="1" lean-forward="true" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+              <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
               <folding>
                 <element signature="e#0#31#0" expanded="true" />
               </folding>
@@ -195,15 +204,6 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/components/add-form/index.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="26" selection-start-column="26" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
@@ -232,8 +232,8 @@
       <find>map</find>
       <find>vthrdm985a262al8qx3do</find>
       <find>awesome</find>
-      <find>console</find>
       <find>console.log</find>
+      <find>console</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -278,7 +278,6 @@
         <option value="$PROJECT_DIR$/src/App.css" />
         <option value="$PROJECT_DIR$/src/components/app/component.tsx" />
         <option value="$PROJECT_DIR$/src/components/nav-bar/component.tsx" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/webpack.config.js" />
         <option value="$PROJECT_DIR$/src/App.scss" />
         <option value="$PROJECT_DIR$/src/components/login/component.tsx" />
@@ -293,6 +292,7 @@
         <option value="$PROJECT_DIR$/src/models/question.ts" />
         <option value="$PROJECT_DIR$/src/reducers/users.ts" />
         <option value="$PROJECT_DIR$/tslint.json" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -467,7 +467,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542708200379" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1542738344685" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.vendoring.notification.had.been.shown" value="true" />
     <property name="node.js.detected.package.eslint" value="true" />
@@ -535,12 +535,12 @@
       <workItem from="1542353983411" duration="6784000" />
       <workItem from="1542594738756" duration="10300000" />
       <workItem from="1542652711303" duration="1000" />
-      <workItem from="1542680168228" duration="15783000" />
+      <workItem from="1542680168228" duration="16820000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73337000" />
+    <option name="totallyTimeSpent" value="74374000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -600,13 +600,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/images/leaf.jpg">
       <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="47" column="39" selection-start-line="47" selection-start-column="39" selection-end-line="47" selection-end-column="39" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/actions/currentUser.ts">
       <provider selected="true" editor-type-id="text-editor">
@@ -851,16 +844,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="120">
-            <caret line="8" column="133" selection-start-line="8" selection-start-column="133" selection-end-line="8" selection-end-column="133" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package-lock.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -904,7 +887,7 @@
     <entry file="file://$PROJECT_DIR$/src/components/home/component.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-265">
-          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
@@ -945,7 +928,7 @@
     <entry file="file://$PROJECT_DIR$/src/components/question/component.tsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="615">
-          <caret line="41" column="1" lean-forward="true" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
+          <caret line="41" column="1" selection-start-line="41" selection-start-column="1" selection-end-line="41" selection-end-column="1" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
@@ -969,6 +952,23 @@
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="120">
+            <caret line="8" selection-start-line="8" selection-end-line="10" selection-end-column="92" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="673">
+          <caret line="50" column="155" selection-start-line="50" selection-start-column="155" selection-end-line="50" selection-end-column="155" />
         </state>
       </provider>
     </entry>
