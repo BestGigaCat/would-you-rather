@@ -1,12 +1,6 @@
 const path = require('path');
-const HtmlWebPackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
-
-const htmlPlugin = new HtmlWebPackPlugin({
-    template: "./src/index.html",
-    filename: "./index.html"
-});
-
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
     entry:'./src/index.tsx',
@@ -14,12 +8,10 @@ module.exports = {
         path: path.join(__dirname, 'dist'),
         filename: 'bundle.js',
     },
-    devServer: {
-        historyApiFallback: true,
-        contentBase: './'
-    },
     resolve: { extensions: [".tsx", ".ts", ".js"] },
-    plugins: [htmlPlugin, new MiniCssExtractPlugin({
+    plugins: [new HtmlWebpackPlugin({
+        template: './src/index.html'
+    }), new MiniCssExtractPlugin({
         filename: 'style.[contenthash].css',
     }),],
     module:{
@@ -29,7 +21,7 @@ module.exports = {
                 use:  [  'style-loader', MiniCssExtractPlugin.loader, 'css-loader', 'sass-loader']
             },
             {
-                test: /\.(jpe?g|png|gif|svg|woff|woff2|eot|ttf)$/i,  // a regular expression that catches .js files
+                test: /\.(jpe?g|png|gif|svg|woff|woff2|eot|ttf)$/i,
                 exclude: /node_modules/,
                 loader: 'file-loader',
             },
@@ -48,4 +40,10 @@ module.exports = {
             },
         ]
     },
+    mode: "development",
+    devServer: {
+        contentBase: './',
+        inline: true,
+        historyApiFallback: true,
+    }
 };

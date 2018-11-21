@@ -8,9 +8,4 @@ import reducer from './reducers';
 
 const store = createStore(reducer, middleware);
 
-ReactDOM.render(
-    <Provider store={store}>
-        <App/>
-    </Provider>,
-    document.getElementById('app'),
-);
+ReactDOM.render(<Provider store={store}><App/></Provider>, document.getElementById('app'));

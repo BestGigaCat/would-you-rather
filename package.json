@@ -21,9 +21,10 @@
     "url-loader": "^1.1.2",
     "node-sass": "^4.10.0",
     "css-loader": "^1.0.1",
-    "extract-text-webpack-plugin": "^3.0.2",
     "sass-loader": "^7.1.0",
-    "mini-css-extract-plugin": "^0.4.4"
+    "mini-css-extract-plugin": "^0.4.4",
+    "bfj-node4": "^5.3.1",
+    "kleur": "^3.0.0"
   },
   "devDependencies": {
     "@types/react": "^16.4.7",
@@ -34,7 +35,7 @@
     "awesome-typescript-loader": "^5.2.1",
     "file-loader": "^1.1.5",
     "ts-loader": "^4.5.0",
-    "tslint-eslint-rules": "^4.1.1",
+    "tslint-eslint-rules": "^5.4.0",
     "typescript": "^3.1.6",
     "url-loader": "^1.1.2",
     "webpack": "4.19.1",
@@ -43,12 +44,18 @@
     "webpack-dev-server": "^3.1.7",
     "node-sass": "^4.10.0",
     "css-loader": "^1.0.1",
-    "extract-text-webpack-plugin": "^3.0.2",
     "sass-loader": "^7.1.0",
-    "mini-css-extract-plugin": "^0.4.4"
+    "mini-css-extract-plugin": "^0.4.4",
+    "bfj-node4": "^5.3.1",
+    "kleur": "^3.0.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "html-webpack-plugin": "^3.2.0"
   },
   "scripts": {
-    "start": "react-scripts start -s && node node_modules/webpack-dev-server/bin/webpack-dev-server --env.devserver --env.build=dev --env.preserveFilenames",
+    "start": "react-scripts -s && node node_modules/webpack-dev-server/bin/webpack-dev-server --env.devserver --env.build=dev --env.preserveFilenames",
     "build": "webpack",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
