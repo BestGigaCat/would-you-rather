@@ -58,7 +58,7 @@ export class AddFormComponent extends Component<Props, State> {
                         onChange={this.onChange}
                     />
                 </label>
-                <button onClick={this.onSubmit}>Submit</button>
+                <button disabled={this.ifDisabled()} onClick={this.onSubmit}>Submit</button>
             </div>
         );
     }
@@ -68,6 +68,13 @@ export class AddFormComponent extends Component<Props, State> {
         this.setState({
             submitted: true,
         });
+    }
+
+    private ifDisabled = () => {
+        if(this.state.optionTwoText && this.state.optionOneText) {
+            return false;
+        }
+        return true;
     }
 
     private onChange = (event) => {

@@ -31,9 +31,16 @@ export class QuestionPickerComponent extends React.Component<Props> {
             return (
                 <div key={question.id}>
                     ID: <div>{question.id}</div>
-                    Option One: <div>{question.optionOne.text}</div>
-                    Option Two: <div>{question.optionTwo.text}</div>
+                    <p>Option One: {question.optionOne.text}</p>
+                    <p>Percentage of ppl voted option one: {Math.round((question.optionOne.votes.length/(question.optionOne.votes.length+question.optionTwo.votes.length))*100)}%</p>
+                    <p># of ppl voted option one: {question.optionOne.votes.length}</p>
+
+                    <p>Option One: {question.optionTwo.text}</p>
+                    <p>Percentage of ppl voted option two: {Math.round((question.optionTwo.votes.length/(question.optionOne.votes.length+question.optionTwo.votes.length))*100)}%</p>
+                    <p># of ppl voted option two: {question.optionTwo.votes.length}</p>
+
                     Create Date: <div>{new Date(this.props.questions[value.id].timestamp).toDateString()}</div>
+                    # of ppl who answered: <div>{question.optionOne.votes.length+question.optionTwo.votes.length}</div>
                     <div>{this.renderButton(question.id)}</div>
                     <br/>
                 </div>

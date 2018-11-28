@@ -32,13 +32,14 @@ class AppComponent extends Component<Props> {
                 <div className="App">
                    <NavBar/>
                     <Switch>
-                        <Route path="/login" component={LoginPage}/>
-                        <Route path="/answered" component={QuestionPicker} />
-                        <Route path="/unanswered" component={UnAnsweredQuestionPicker} />
-                        <Route path="/leaderboard" component={LeaderBoard} />
-                        <Route path="/questions/:id" component={QuestionDetail} />
-                        <Route path="/add" component={AddForm} />
-                        <Route path="/" component={HomePage}/>
+                        <Route exact path="/login" component={LoginPage}/>
+                        <Route exact path="/answered" component={QuestionPicker} />
+                        <Route exact path="/unanswered" component={UnAnsweredQuestionPicker} />
+                        <Route exact path="/leaderboard" component={LeaderBoard} />
+                        <Route exact path="/questions/:id" component={QuestionDetail} />
+                        <Route exact path="/add" component={AddForm} />
+                        <Route exact path="/" component={HomePage}/>
+                        <Route component={NotFoundPage}/>
                     </Switch>
                 </div>
             </BrowserRouter>
@@ -65,6 +66,14 @@ function handleInitialData(dispatch) {
 function mapDispatchToProps(dispatch): ReduxDispatchProps {
     return({ handleInitialData: () => handleInitialData(dispatch) });
 }
+
+const NotFoundPage = () => {
+    return (
+        <div>
+            404! You entered a page that doesn't exist.
+        </div>
+    );
+};
 
 export const App = connect(
     null,
