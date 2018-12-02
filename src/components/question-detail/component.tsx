@@ -30,7 +30,6 @@ class QuestionDetailPresentation extends React.Component<Props, State> {
     public state: State = {};
 
     public render() {
-        console.log("what!");
         if (this.props.currentUser === null || this.props.currentUser === '') {
             return (
                 <Redirect to={{ pathname: '/login', state: { from: `/questions/${this.props.match.params.id}` } }}/>);
@@ -39,7 +38,6 @@ class QuestionDetailPresentation extends React.Component<Props, State> {
         const question = this.props.questions[this.props.match.params.id];
         console.log(question);
         if (!question) {
-            console.log("what");
             return (
                 <Redirect to={{ pathname: '/notfound', state: { from: `/questions/${this.props.match.params.id}` } }}/>);
         }
